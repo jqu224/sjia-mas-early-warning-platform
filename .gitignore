@@ -1,0 +1,65 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+dist/
+build/
+.next/
+coverage/
+*.local
+.test-output/
+
+# 样式预览产物（scripts/preview-assistant.tsx 生成的临时页面）
+.preview/
+app/preview.html
+
+# Local OCR / case-ref audit scaffolding — keep on disk, never ship
+app/scripts/batch-case-ref-scan.mjs
+app/scripts/browser-audit-one.mjs
+app/scripts/upload-one-scan.mjs
+app/scripts/preview-assistant.tsx
+
+# Local agent, MCP, and review artifacts
+.impeccable/
+.shots/
+.zion-mcp/
+.zcode/
+
+# Private writing. Publish READMEs only.
+*.md
+!README.md
+!README.zh-CN.md
+reference/
+
+# Raster images stay local. Hero art ships as SVG.
+*.png
+*.jpg
+*.jpeg
+*.jpe
+*.jfif
+*.jfi
+*.pjpeg
+*.pjp
+*.PNG
+*.JPG
+*.JPEG
+*.JPE
+*.JFIF
+*.JFI
+*.PJPEG
+*.PJP
+# Clinical case photos are JPG (reference/case-ref), so raster images stay
+# local everywhere except the two public asset positions below.
+!docs/assets/*.png
+!docs/assets/*.jpg
+!docs/assets/*.jpeg
+!app/public/*.png
+!app/public/*.jpg
+!app/public/*.jpeg
+# PP-OCR models are generated from node_modules by app/scripts/copy-ppocr.mjs
+# (copied as *.wasm under assets/ppocr so Zion static hosting will accept them)
+app/public/ppocr/
+app/public/assets/ppocr/
