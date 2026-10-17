@@ -102,6 +102,14 @@ npm run lint
 | `npm run build` | Typecheck and Vite build into `app/dist/` |
 | First visit | Pick patient, family, or clinician. The screen shows the demo password for that role |
 
+## Team & Demo
+
+| | |
+| --- | --- |
+| **Team** | 小笼 AI |
+| **Online demo** | <https://772lxq0k0dv0k.villa.functorz-app.com/> |
+| **Hackathon** | 「罕见·无界」— sJIA / MAS early-warning platform (problem 7) |
+
 ## License
 
 [MIT](LICENSE)

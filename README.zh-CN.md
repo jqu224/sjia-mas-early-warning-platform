@@ -102,6 +102,14 @@ npm run lint
 | `npm run build` | 类型检查并构建到 `app/dist/` |
 | 第一次打开 | 选择患者、家属或医生。屏幕会显示该身份的演示密码 |
 
+## 团队与 Demo
+
+| | |
+| --- | --- |
+| **团队** | 小笼 AI |
+| **在线 Demo** | <https://772lxq0k0dv0k.villa.functorz-app.com/> |
+| **黑客松** | 「罕见·无界」— sJIA 重症并发症 MAS 动态预警平台（问题 7） |
+
 ## 许可证
 
 [MIT](LICENSE)
